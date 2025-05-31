@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.HomePage{
+  background-color: #0B243A;
+  min-height: 100vh;
+  color: white;
+}
+
+.CreateFlight {
+  background-color: #0B243A;
+  min-height: 100vh;
+  color: white;
+}
+.SearchFlight{
+  background-color: #0B243A;
+  min-height: 100vh;
+  color: white;
+}
+
+.showFlightDetails {
+  background-color: #0B243A;
+  min-height: 100vh;
+  color: white;
+}
+
+.UpdateFlightInfo {
+  background-color: #0B243A;
+  min-height: 100vh;
+  color: white;
+}
+
+.UpdateUserInfo {
+  background-color: #0B243A;
+  min-height: 100vh;
+  color: white;
+}
+
+.ShowFlightList {
+  background-color: #0B243A;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: white;
+}
+
+.Login {
+  background-color: #0B243A;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: #ffffff;
+}
+
+.loginbutton{
+  color: black;
+  margin-left: 270px;
+}
+
+.Register{
+  background-color: #0B243A;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: white;
+}
+.group{
+  background-color: #0B243A;
+  color: white;
+  margin: auto;
+  width: 35vh;
+  margin-left: 340px;
+}
+.Register-group{
+  background-color: #0B243A;
+  color: white;
+  margin: auto;
+  width: 25vh;
+  margin-left: 340px;
+}
+
+.adminhome {
+  background-color: #0B243A;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: #ffffff;
+}
+
+
+           
+
+
+.list {
+  display: grid;
+  margin: 20px 0 50px 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+}
+
+.card-container {
+  width: 300px;
+  border: 1px solid rgba(0,0,.125);
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-container2 {
+  width: 300px;
+  border: 1px solid rgba(0,0,.125);
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.desc h1{
+  height: 500px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.desc h2 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.desc h3 {
+  color:white;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+}
+
+.visually-hidden {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
